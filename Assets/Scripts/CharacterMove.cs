@@ -5,7 +5,6 @@ public class CharacterMove : MonoBehaviour
 {
     [SerializeField]
     private float speed;
-    [SerializeField]
     private Rigidbody2D rb;
     private float playerSize;
 
@@ -21,7 +20,7 @@ public class CharacterMove : MonoBehaviour
     {
         float xForth = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(xForth * speed, rb.velocity.y);
-        Debug.Log(rb.velocity);
+        //Debug.Log(rb.velocity);
 
         if (xForth != 0.0f)
         {
