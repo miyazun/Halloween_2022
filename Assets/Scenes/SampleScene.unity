@@ -220,7 +220,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292687072}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.12, y: -0.7, z: -20.424377}
+  m_LocalPosition: {x: 2.12, y: -1.06, z: -20.424377}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 1812440257}
@@ -1659,6 +1659,7 @@ GameObject:
   - component: {fileID: 1812440259}
   - component: {fileID: 1812440261}
   - component: {fileID: 1812440262}
+  - component: {fileID: 1812440263}
   m_Layer: 0
   m_Name: pumpking
   m_TagString: Untagged
@@ -1833,3 +1834,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPlace: 13
+--- !u!114 &1812440263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1812440254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efc9a259721e57419ddbba8905a424b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ground: {fileID: 30027109}
